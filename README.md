@@ -39,7 +39,7 @@ IMESwitcher/
 1. Open the project in **Visual Studio**
 2. Make sure the project type is set to **Windows Application**
 3. Build the project (`Ctrl + Shift + B`)
-4. The executable will appear under:
+4. The executable will appear under:  bin/Release/netX.X/
 
 ## 🖥️ How It Works
 The app:
