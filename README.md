@@ -9,6 +9,9 @@ Designed to run silently in the system tray without showing any window or taskba
 - Uses a **low-level keyboard hook** (WH\_KEYBOARD\_LL)
 - Supports **localized resources** (English / Japanese)
 - Extremely small and fast — ideal for daily use
+- **No keylogger behavior — only checks the specific hotkey (Left Ctrl + Space)**
+- **Fully open-source — all code is publicly available, no malicious behavior**
+- **No internet access required — works entirely offline**
 
 ## 🔧 Hotkey Behavior
 When the following keys are pressed:
@@ -20,18 +23,17 @@ The app simulates:
 This triggers Windows' IME switching behavior.
 
 ## 📂 Project Structure
-
-IMESwitcher/
-├── IMESwitcher.csproj
-├── Program.cs
-├── HiddenForm.cs
-├── Properties/
-│   ├── Resources.resx
-│   ├── Resources.ja.resx
-│   ├── Resources.en.resx
-│   ├── Resources.Designer.cs
-│   └── AssemblyInfo.cs
-└── README.md
+IMESwitcher/  
+├── IMESwitcher.csproj  
+├── Program.cs  
+├── HiddenForm.cs  
+├── Properties/  
+│   ├── Resources.resx  
+│   ├── Resources.ja.resx  
+│   ├── Resources.en.resx  
+│   ├── Resources.Designer.cs  
+│   └── AssemblyInfo.cs  
+└── README.md  
 
 ## 🚀 How to Build
 1. Open the project in **Visual Studio**
@@ -58,7 +60,3 @@ Feel free to use, modify, and distribute.
 
 ## 🙌 Author
 Masato
-
-
-
-Masat
